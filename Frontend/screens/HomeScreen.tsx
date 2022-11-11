@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { Button } from "react-native-paper";
-
+// import BottomNav from "../components/BottomNav";
 export default function Home() {
 	return (
 		<View style={styles.container}>
@@ -13,6 +13,7 @@ export default function Home() {
 			>
 				Press me
 			</Button>
+
 			<StatusBar style="auto" />
 		</View>
 	);
